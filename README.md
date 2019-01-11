@@ -20,7 +20,7 @@
 
 ## Overview
 
-The sqlserver module installs and manages Microsoft SQL Server 2012, 2014, 2016 and 2017 on Windows systems.
+The sqlserver module installs and manages Microsoft SQL Server 2012, 2014, 2016, 2017, 2019 on Windows systems.
 
 ## Module Description
 
@@ -1068,7 +1068,7 @@ Terminology differs somewhat between various database systems; please refer to t
 
 ## Limitations
 
-SQL 2017 detection support has been added. This support is limited to functionality already present for other versions. No new SQL 2017 specific functionality has been added in this release.
+SQL 2017, and 2019 detection support has been added. This support is limited to functionality already present for other versions. No new SQL 2017 specific functionality has been added in this release.
 
 This module can manage only a single version of SQL Server on a given host (one and only one of SQL Server 2012, 2014 or 2016). The module is able to manage multiple SQL Server instances of the same version.
 
